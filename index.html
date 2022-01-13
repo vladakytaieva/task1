@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="module" src="main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Created</th>
+                <th>Category</th>
+                <th>Content</th>
+                <th>Dates</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="notes-data">
+
+        </tbody>
+    </table>
+
+    <button class="btn">Create note</button>
+
+    <form>
+        <label for="name-input">Note name:</label><br/>
+        <input type="text" id="name-input" name="name-input"/><br/>
+        <label for="content-input">Note content:</label><br/>
+        <input type="text" id="content-input" name="content-input"/><br/>
+        <label for="category-select">Note category:</label><br/>
+        <select id="category-select" name="category-select">
+            <option value="Task">Task</option>
+            <option value="Idea">Idea</option>
+            <option value="Random thought">Random thought</option>
+        </select><br/>
+        <input type="submit" value="Add note" class="btn"/>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Note category</th>
+                <th>Active</th>
+                <th>Archived</th>
+            </tr>
+        </thead>
+        <tbody id="categories-data">
+            <tr name="task">
+                <td>Task</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr name="idea">
+                <td>Idea</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr name="thought">
+                <td>Random thought</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    </div>
+    
+<template id="notes-row">
+    <tr>
+        <td class="name"></td>
+        <td class="created"></td>
+        <td class="category"></td>
+        <td class="content"></td>
+        <td class="dates"></td>
+        <td><i class="material-icons">create</i></td>
+        <td><i class="material-icons">archive</i></td>
+        <td><i class="material-icons">delete</i></td>
+    </tr>
+</template>
+</body>
+</html>

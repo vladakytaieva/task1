@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body div {
+    width: 80%;
+    margin: auto;
+}
+
+table {
+    padding: 10px;
+    margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: auto;
+}
+
+th, td {
+    padding: 5px 10px;
+    border: none;
+    color: #333;
+}
+
+th {
+    background-color: steelblue;
+    color: white;
+}
+
+tbody tr {
+    background-color: whitesmoke;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(224, 224, 224);
+}
+
+.btn {
+    margin: 10px 0;
+}
+
+form {
+    /* background-color: steelblue; */
+    /* color: white; */
+    padding: 10px;
+    margin: 10px auto;
+}
+
+form input[type="text"] {
+    width: 50%;
+}
