@@ -2,7 +2,6 @@ import todos from './todos.js'
 const tbody = document.getElementById('notes-data')
 const categoriesBody = document.getElementById('categories-data')
 
-
 const renderNotes = () => {
     const template = document.getElementById('notes-row') 
     const row = template.content.querySelector('tr')
@@ -52,7 +51,7 @@ const calculateNotes = () => {
     return nums
 }
 
-const renderCategoriesData = () => {
+export const renderCategoriesData = () => {
     const nums = calculateNotes()
     const rows = categoriesBody.children
     console.log(rows)

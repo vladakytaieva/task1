@@ -40,8 +40,6 @@ tbody tr:nth-child(even) {
 }
 
 form {
-    /* background-color: steelblue; */
-    /* color: white; */
     padding: 10px;
     margin: 10px auto;
 }

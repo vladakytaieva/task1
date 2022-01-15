@@ -1,7 +1,7 @@
 const todos = [
     {
         name: "Chores",
-        created: "06/01/2022",
+        created: "06 Jan 2021",
         category: "Task",
         content: "Mow the lown",
         dates: "",
@@ -9,7 +9,7 @@ const todos = [
     },
     {
         name: "Final exams",
-        created: "01/09/2021",
+        created: "31 Aug 2021",
         category: "Random thought",
         content: "Final exams are only final if you pass them",
         dates: "",
@@ -17,7 +17,7 @@ const todos = [
     },
     {
         name: "Jimmy's bday",
-        created: "10/01/2022",
+        created: "10 Jan 2022",
         category: "Task",
         content: "Bake a cake",
         dates: "",
@@ -25,7 +25,7 @@ const todos = [
     },
     {
         name: "Books",
-        created: "10/01/2022",
+        created: "10 Jan 2022",
         category: "Task",
         content: "Order books",
         dates: "",
@@ -33,7 +33,7 @@ const todos = [
     },
     {
         name: "Vacation destinations",
-        created: "25/12/2021",
+        created: "25 Dec 2021",
         category: "Idea",
         content: "Thailand, Mallorca, Venice",
         dates: "",
@@ -41,7 +41,7 @@ const todos = [
     },
     {
         name: "Hyphenated",
-        created: "19/06/2021",
+        created: "19 Jun 2021",
         category: "Random thought",
         content: "Hyphenated is non-hyphenated while non-hyphenated is hyphenated",
         dates: "",
@@ -49,7 +49,7 @@ const todos = [
     },
     {
         name: "History",
-        created: "14/01/2022",
+        created: "14 Jan 2022",
         category: "Task",
         content: "Read p.117-125 for 04/02/2022",
         dates: "04/02/2022",
